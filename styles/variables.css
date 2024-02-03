@@ -10,7 +10,7 @@
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --bg-color: #000028;
-  --hover-color: rgba(255, 0, 112, 0.4);
+  --hover-color: oklch(64.11% 0.2568555184439196 7.4525700712725955);
   --bg-image: url(../images/cover-image-dark.png);
   --decor-display: block;
   --padding-pg: 10px;
