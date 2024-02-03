@@ -3,10 +3,56 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-light {
+  /* Переменные светлой темы */
+  --title-color: #ffc2e6;
+  --text-color: #353430;
+  --button-color: #353430;
+  --sub-color: #353430;
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url(../images/cover-image-light.png);
+  --decor-display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --title-color: #ffc2e6;
+    --text-color: #353430;
+    --button-color: #353430;
+    --sub-color: #353430;
+    --accent-color: #ff8dcb;
+    --bg-color: #fff1f7;
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --bg-image: url(../images/cover-image-light.png);
+    --decor-display: none;
+  }
+}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --title-color: #ffc2e6;
+  --text-color: #353430;
+  --button-color: #353430;
+  --sub-color: #353430;
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url(../images/cover-image-light.png);
+  --decor-display: none;
+}
+
+@media (375px <= width <= 768px) {
+  .theme_light {
+    --title-shadow: #ff8dcb;
+  }
+}
+
+.header__theme-menu-button_type_light:focus-visible {
+  border-bottom: 1px solid var(--button-color);
 }
