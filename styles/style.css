@@ -282,7 +282,7 @@
   color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 125%;
 }
 
 .content-section__text:last-child {
