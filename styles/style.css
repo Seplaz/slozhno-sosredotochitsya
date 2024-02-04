@@ -185,7 +185,7 @@
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
-  line-height: 130%;
+  line-height: 23.4px;
   background-color: var(--accent-color);
 }
 
@@ -270,7 +270,7 @@
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
-  line-height: 130%;
+  line-height: 23.4px;
 }
 
 .title-decor:not(.header__article) {
@@ -282,7 +282,7 @@
   color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 23.4px;
 }
 
 .content-section__text:last-child {
