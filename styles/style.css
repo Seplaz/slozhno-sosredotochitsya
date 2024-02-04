@@ -23,7 +23,7 @@
     padding-inline-start: 0;
     padding-inline-end: var(--padding-pg);
     padding-block: var(--padding-pg);
-    min-inline-size: 1024px;
+    min-block-size: 100vh;
   }
 }
 
@@ -411,7 +411,7 @@
 @media (min-width: 768px) {
   .footer {
     margin-block-start: 60px;
-    min-inline-size: 1024px;
+    min-block-size: 100vh;
   }
 }
 
