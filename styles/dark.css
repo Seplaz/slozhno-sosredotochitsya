@@ -12,25 +12,10 @@
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --bg-color: #000028;
-  --hover-color: oklch(64.11% 0.2568555184439196 7.4525700712725955);
+  --hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-dark.png);
   --decor-display: block;
   --padding-pg: 10px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --title-color: #db00ff;
-    --title-shadow: #ff0070;
-    --text-color: #f1b2ce;
-    --sub-color: #000028;
-    --accent-color: #ff0070;
-    --button-color: #ff0070;
-    --bg-color: #000028;
-    --hover-color: oklch(64.11% 0.2568555184439196 7.4525700712725955);
-    --bg-image: url(../images/cover-image-dark.png);
-    --decor-display: block;
-  }
 }
 
 .page.theme_dark {
@@ -38,16 +23,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --title-color: #db00ff;
-  --title-shadow: #ff0070;
-  --text-color: #f1b2ce;
-  --sub-color: #000028;
-  --accent-color: #ff0070;
-  --button-color: #ff0070;
-  --bg-color: #000028;
-  --hover-color: oklch(64.11% 0.2568555184439196 7.4525700712725955);
-  --bg-image: url(../images/cover-image-dark.png);
-  --decor-display: block;
 }
 
 .header__theme-menu-button_type_dark:focus-visible {
