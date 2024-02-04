@@ -278,11 +278,11 @@
 }
 
 .content-section__text {
-  padding-block-end: 20px;
+  /* padding-block-end: 20px; */
   color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
-  line-height: 125%;
+  /* line-height: 125%; */
 }
 
 .content-section__text:last-child {
