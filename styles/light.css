@@ -3,18 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
-  /* Переменные светлой темы */
-  --title-color: #ffc2e6;
-  --text-color: #353430;
-  --button-color: #353430;
-  --sub-color: #353430;
-  --accent-color: #ff8dcb;
-  --bg-color: #fff1f7;
-  --hover-color: oklch(31.28% 0.007 95.29 / 40%);
-  --bg-image: url(../images/cover-image-light.png);
-  --decor-display: none;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -25,7 +13,7 @@
     --sub-color: #353430;
     --accent-color: #ff8dcb;
     --bg-color: #fff1f7;
-    --hover-color: oklch(31.28% 0.007 95.29 / 40%);
+    --hover-color: rgba(50, 49, 45, 0.4);
     --bg-image: url(../images/cover-image-light.png);
     --decor-display: none;
   }
@@ -42,7 +30,7 @@
   --sub-color: #353430;
   --accent-color: #ff8dcb;
   --bg-color: #fff1f7;
-  --hover-color: oklch(31.28% 0.007 95.29 / 40%);
+  --hover-color: rgba(50, 49, 45, 0.4);
   --bg-image: url(../images/cover-image-light.png);
   --decor-display: none;
 }
