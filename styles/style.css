@@ -39,9 +39,9 @@
 }
 
 @media (min-width: 768px) {
-  .content-section__first {
+  /* .content-section__first {
     padding-block-start: 60px;
-  }
+  } */
 
   h2.content-section__title {
     padding-block-start: 0;
