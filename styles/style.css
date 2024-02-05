@@ -26,6 +26,10 @@
     /* ??? */
     max-block-size: 1024px;
   }
+
+  /* .header__article {
+    max-inline-size: 364px;
+  } */
 }
 
 @media (min-width: 768px) {
@@ -36,7 +40,7 @@
 
 @media (min-width: 768px) {
   .content-section__first {
-    margin-block-start: 60px;
+    padding-block-start: 60px;
   }
 
   h2.content-section__title {
@@ -110,11 +114,11 @@
     max-block-size: 768px;
   }
 
-  p.header__article {
+  /* p.header__article {
     overflow: hidden;
-    max-inline-size: 100%;
+    max-inline-size: 491px;
     white-space: wrap;
-  }
+  } */
 
   .header__theme-menu {
     justify-self: center;
@@ -178,7 +182,7 @@
   justify-self: end;
   align-self: center;
   min-inline-size: 355px;
-  max-inline-size: 364px;
+  max-inline-size: 491px;
 }
 
 .title-decor {
@@ -191,6 +195,7 @@
 }
 
 .content {
+  background-color: var(--sub-color);
   inline-size: 100%;
 }
 
@@ -262,6 +267,7 @@
 
 .content-section {
   padding-inline: 10px;
+  background-color: var(--sub-color);
 }
 
 .content-section__title {
@@ -403,17 +409,18 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin-block-start: 40px;
+  padding-block-start: 40px;
   padding: var(--padding-pg);
+  background-color: var(--sub-color);
   block-size: 100vh;
-  min-block-size: 668px;
+  max-block-size: 667px;
 }
 
 @media (min-width: 768px) {
   .footer {
-    margin-block-start: 60px;
+    padding-block-start: 60px;
     /* ??? */
-    min-block-size: 100vh;
+    max-block-size: 1024px;
   }
 }
 
@@ -430,12 +437,12 @@
 
 @media (min-width: 1024px) {
   .footer {
-    margin-block-start: 60px;
-    min-block-size: 768px;
+    padding-block-start: 60px;
+    max-block-size: 768px;
   }
 }
 
-@media (768px <= width) and (width <= 1024px) and (width >= 1024px) {
+@media (768px <= width) or (width <= 1024px) or (width >= 1024px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
